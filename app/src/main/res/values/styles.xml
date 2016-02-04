@@ -1,0 +1,39 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@color/custom_theme_background</item>
+    </style>
+    
+
+    <style name="ButtonStyle">
+        <!--<item name="android:textColor">#ffffff</item>-->
+    </style>
+
+    <!-- naviDrawer theme-->
+    <style name="MyNavigationDrawerTheme" parent="MaterialNavigationDrawerTheme">
+        <item name="colorPrimary">#8bc34a</item>
+        <item name="colorPrimaryDark">#558b2f</item>
+        <!--<item name="colorAccent">#FFFFFF</item>-->
+        <item name="singleAccount">true</item><!-- Remove the change account button -->
+        <item name="android:textColor">@color/custome_text</item>
+        <item name="android:windowBackground">@color/custome_gray_lower</item>
+        <item name="drawerColor">@color/custome_white</item>
+        <item name="sectionStyle">@color/custome_section</item>
+    </style>
+
+    <!-- Accounts -->
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_theme_background">#EEEEEE</color>
+    <color name="custome_white">#ffffff</color>
+    <color name="custome_text">#5d5d5d</color>
+    <color name="custome_text_higher">#424242</color>
+    <color name="tranparent_darker_gray">#aae7e6e6</color>
+    <color name="custome_section">#f5f5f5</color>
+
+    <color name="custome_gray">#bdbdbd</color>
+    <color name="custome_gray_lower">#f5f5f5</color>
+
+    <color name="bad_color">#df0909</color>
+
+
+    <color name="black_layer">#4bf7f7f7</color>
+
+    <color name="main_blue">#2196F3</color>
+    <color name="main_blue_shallower">#64b5f6</color>
+
+</resources>
